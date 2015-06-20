@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Jarvis:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Jarvis.war">
+      <element id="artifact" artifact-name="Jarvis:war exploded" />
+    </root>
+  </artifact>
+</component>
