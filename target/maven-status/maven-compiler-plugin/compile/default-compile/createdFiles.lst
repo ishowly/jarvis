@@ -1,1 +1,8 @@
-com/springapp/mvc/HelloController.class
+com/ishowly/jarvis/model/BaseEntity.class
+com/ishowly/jarvis/dao/BaseDao.class
+com/ishowly/jarvis/controller/PersonController.class
+com/ishowly/jarvis/service/PersonService.class
+com/ishowly/jarvis/model/Person.class
+com/ishowly/jarvis/service/BaseService.class
+com/ishowly/jarvis/controller/HelloController.class
+com/ishowly/jarvis/dao/PersonDao.class

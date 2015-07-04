@@ -1,4 +1,4 @@
-package com.springapp.mvc;
+package com.ishowly.jarvis.controller;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,13 +11,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.context.WebApplicationContext;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
-import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration("file:src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml")
+@ContextConfiguration("file:../../../../../../main/webapp/WEB-INF/ishowly-servlet.xml")
 public class AppTests {
     private MockMvc mockMvc;
 
