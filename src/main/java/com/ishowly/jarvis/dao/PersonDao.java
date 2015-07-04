@@ -3,11 +3,12 @@ package com.ishowly.jarvis.dao;
 import com.ishowly.jarvis.model.Person;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created by zhangdongjie on 15-7-4.
  */
-@Component
+@Repository
 public interface PersonDao extends BaseDao<Person> {
 
     public static final String SELECT_KEYS = " id, name, age, sex, address, family_id, role_id ";
